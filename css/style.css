@@ -113,7 +113,7 @@ card{
     background-color: white;
     position: absolute;
     top: 2%;
-    left: 88%;
+    left: 89%;
     border: 0;
 }
 
@@ -122,15 +122,15 @@ card{
     background-color: red;
     position: absolute;
     padding: 6px 10px 6px 10px;
-    bottom: 19%;
+    bottom: 25%;
 }
 .sostenibilita-banner{
     color: white;
     background-color: green;
     position: absolute;
     padding: 6px 10px 6px 10px;;
-    top: 75%;
-    left: 21%;
+    top: 68%;
+    left: 23%;
 }
 .position-sost{
     position: absolute;
