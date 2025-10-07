@@ -28,7 +28,7 @@ HEADER
     align-items: center;
     padding-left: 50px;
     padding-right: 50px;
-    background-color: orange;
+    background-color: rgb(255, 106, 0);
     /* debug */
     /* height: 70px; */
 }
@@ -38,9 +38,9 @@ HEADER
 }
 
 .header-resize-img{
-    width: 20%;
-    margin-top: 20px;
-    margin-left: 200px;
+    width: 35%;
+    margin-top: 10px;
+    margin-left: 180px;
 }
 
 .a-no-style {
