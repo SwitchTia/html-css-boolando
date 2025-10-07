@@ -11,3 +11,25 @@ img {
 /* body {
     background-color: rgb(241, 183, 180);
 } */
+
+section{
+    padding: 30px 0;    
+}
+
+.container{
+    width: 80%;
+    margin: 0;
+    /* debug */
+    background-color: rgb(244, 192, 166);
+    height: 500px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    /* debug */
+    background-color: lightcoral;
+    height: 200px;
+}   
