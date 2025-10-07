@@ -77,6 +77,14 @@ card{
     border: 0;
 }
 
+.discount-banner{
+    color: white;
+    background-color: red;
+    position: absolute;
+    padding: 4px 10px 4px 10px;
+    bottom: 9%;
+}
+
 /* *************************************
 FOOTER
 **************************************** 
