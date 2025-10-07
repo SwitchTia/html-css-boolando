@@ -1,3 +1,7 @@
+/* *************************************
+CONTROL & RESET
+**************************************** 
+*/ 
 * {
     margin: 0;
     padding: 0;
@@ -5,23 +9,43 @@
 }
    
 img {
-    max-width: 100;
+    max-width: 100%;
 }
 
 /* body {
     background-color: rgb(241, 183, 180);
 } */
 
+/* *************************************
+HEADER
+**************************************** 
+*/ 
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: orange;
+    /* debug */
+    height: 70px;
+}
+
+/* *************************************
+MAIN
+**************************************** 
+*/ 
 section{
     padding: 30px 0;    
 }
 
 .container{
     width: 80%;
-    margin: 0;
+    max-width: 1000px;
+    margin: 0 auto;
     /* debug */
     background-color: rgb(244, 192, 166);
-    height: 500px;
+    /* height: 500px; */
 }
 
 .row{
@@ -31,5 +55,29 @@ section{
 
     /* debug */
     background-color: lightcoral;
-    height: 200px;
-}   
+    /* height: 200px; */
+} 
+
+card{
+    position: relative;
+}
+
+.column-width30{
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+/* *************************************
+FOOTER
+**************************************** 
+*/ 
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: black;
+    /* debug */
+    height: 90px;
+}
