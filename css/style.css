@@ -81,8 +81,20 @@ card{
     color: white;
     background-color: red;
     position: absolute;
-    padding: 4px 10px 4px 10px;
+    padding: 6px 10px 6px 10px;
     bottom: 9%;
+}
+.sostenibilita-banner{
+    color: white;
+    background-color: green;
+    position: absolute;
+    padding: 6px 10px 6px 10px;;
+    top: 84%;
+    left: 21%;
+}
+.position-sost{
+    position: absolute;
+    left: 0;
 }
 
 /* *************************************
