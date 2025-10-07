@@ -67,6 +67,14 @@ card{
     margin-bottom: 20px;
 }
 
+.heart{
+    font-size: 2rem;
+    background-color: white;
+    position: absolute;
+    top: 10%;
+    left: 31%;
+}
+
 /* *************************************
 FOOTER
 **************************************** 
