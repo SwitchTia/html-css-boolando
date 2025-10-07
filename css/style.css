@@ -48,13 +48,13 @@ HEADER
     color: white;
 }
 
-ul {
+header ul {
     display: inline-flex;
     list-style: none;
     padding-left: 50px;
     padding-right: 50px;
 }
-li{
+header li{
     margin: 20px 10px 20px 10px;
 }
 
@@ -74,8 +74,9 @@ a {
 MAIN
 ****************************************
 */
+
 section{
-    padding: 50px 0 100px 0;
+    padding: 50px 0 50px 0;
 }
 
 .container{
@@ -104,7 +105,6 @@ card{
 .column-width30{
     width: 30%;
     margin-right: 20px;
-    margin-bottom: 40px;
     position: relative;
 }
 
@@ -130,7 +130,7 @@ card{
     position: absolute;
     padding: 6px 10px 6px 10px;;
     top: 68%;
-    left: 23%;
+    left: 26%;
 }
 .position-sost{
     position: absolute;
@@ -140,17 +140,44 @@ card{
 .price-red{
     color: red;
 }
+
+
 /* *************************************
 FOOTER
 ****************************************
 */
 .footer-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between; 
     align-items: center;
-    padding-left: 50px;
-    padding-right: 50px;
     background-color: black;
+   
+
     /* debug */
-    height: 90px;
+    /* height: 90px; */
+}
+
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 4rem;
+    color: white;
+    width: 50%;
+   
+}
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 4rem;
+    color: white;
+     width: 50%;
+   
+}
+footer li{
+    display: inline-block;
+    justify-content: space-between;
+    /* margin: 5px 5px 5px 5px; */
+    /* padding-bottom: 30px; */
 }
