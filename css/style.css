@@ -65,14 +65,16 @@ card{
 .column-width30{
     width: 30%;
     margin-bottom: 20px;
+    position: relative;
 }
 
 .heart{
     font-size: 2rem;
     background-color: white;
     position: absolute;
-    top: 10%;
-    left: 31%;
+    top: 2%;
+    left: 88%;
+    border: 0;
 }
 
 /* *************************************
